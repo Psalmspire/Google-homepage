@@ -33,6 +33,7 @@ main {
     width: 50%;
     height: 40%;
     text-align: center;
+    position: relative;
 }
 
 main img {
@@ -128,14 +129,12 @@ footer p {
     float: right;
     padding: 0;
     margin-left: auto;
-    text-align: center;
 }
 
 #left {
     margin-left: 20px;
     padding: 0;
     float: left;
-    text-align: center;
     margin-right: auto;
 }
 
@@ -145,4 +144,29 @@ footer p {
 
 .carbon img {
     height: 12px;
+    text-align: center;
+    margin-left: -200px;
+}
+
+
+/*.searx {
+    width: 80%;
+}*/
+
+.searx {
+    position: relative;
+}
+
+.mic img {
+    position: absolute;
+    height: 25px;
+    bottom: 25px;
+    right: 13%;
+}
+
+.search img {
+    position: absolute;
+    height: 25px;
+    bottom: 25px;
+    left: 13%;
 }
